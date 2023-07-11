@@ -1,0 +1,62 @@
+<!DOCTYPE html><!-- このファイルがHTMLであることを宣言 -->
+<html lang="ja"><!-- 言語は日本語に設定 -->
+<head>
+    <meta charset="utf-8">
+    <link rel=stylesheet href="#####(1)#####"><!-- cssファイルの読み込み -->
+    <link rel="icon" href="#####(2)#####"><!-- ファビコンの設定 -->
+    <title>台形面積ツール</title>
+</head>
+
+<body>
+    <header>
+        <a href="/" class="logo">台形面積ツール</a>
+        <nav>
+            <a href="/">NEWS</a>
+            <a href="/">ABOUT</a>
+            <a href="/">SERVICES</a>
+            <a href="/">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <h1>面積を求めたい台形の情報を入力してください</h1>
+            <form id="calc-form">
+                <div class="field">
+                    <label>台形の上底は？</label>
+                    <div>
+                        <#####(4)##### type="number" name="top" class="input-field" required="required" placeholder="上底">cm
+                    </div>
+                </div>
+                <div class="field">
+                    <label>台形の下底は？</label>
+                    <div>
+                        <#####(4)##### type="number" name="bottom" class="input-field" required="required" placeholder="下底">cm
+                    </div>
+                </div>
+                <div class="field">
+                    <label>台形の高さは？</label>
+                    <div>
+                        <#####(4)##### type="number" name="height" class="input-field" required="required" placeholder="高さ">cm
+                    </div>
+                </div>
+                <button class="calc-btn" #####(5)#####>計算する</button>
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="title">台形の面積は...</div>
+            <h3 id="result">自然数を入力してください</h3>
+            <h5> ※次回のゼミでこの部分の処理方法を学びます </h5>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer-logo">
+            &copy; GeekSalon_AI_html_cssゼミ
+        </p>
+    </footer>
+
+    <script src="/static/js/calc.js"></script>
+</body>
+</html>
