@@ -176,7 +176,7 @@ calculation.htmlの設定
   background-color: antiquewhite;
 }
 
-#result {
+.result {
   font-weight: bold;
   color: rgb(246, 123, 123);
   font-size: 24px;
